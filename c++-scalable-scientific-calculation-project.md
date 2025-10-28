@@ -1,6 +1,6 @@
 # DEVELOPING GUIDELINES
 
-1. **NO template, NO lambda, No PCH, No macro define (Use constexpr if possible for type safety)**
+1. **NO template(Except for fully static modules or cases), NO lambda, No PCH, No macro define (Use constexpr if possible for type safety)**
 2. **Plain design**, no extra namespaces more than one that aims at seperating our own lib from the third-party ones.
 3. **Always check to avoid enum conflicts.**
 4. **No code nesting.** No struct/class/enum inside struct/class.
