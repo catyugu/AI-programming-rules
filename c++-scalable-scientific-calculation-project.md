@@ -22,7 +22,8 @@
    - Constant: UPPER_SNAKE_CASE
    - File/Folder: lowercase_with_underscores/Keep the same name as the main class inside
    - Test Case: test_case_description_with_underscores
-17. **Put .hpp files and .cpp files in the same location in the `src`**
-18. **Clean include path:** No use of relative path in include like `../`, instead, always configure the include path property in CMakeLists.txt.
-19. **Plan and checklists:** For the future developers to take on your work, please always provide a plan document with clear todos and checklists. Before implementing anything, check out the document file. Whenever you finished something in the checklist, please update the document.
-20. **Proper cmake configuration:** Use CPM to mangage dependencies. After any update on cmake scripts, you should rerun configuration before rebuild.
+17. **Put .hpp files and .cpp files in the same location**
+18. **Properly arrage the file:** Traditionally you shouldn't put more than 15 files in a directory. If you're doing so, you should consider refactoring.
+19. **Clean include path:** No use of relative path in include like `../`, instead, always configure the include path property in CMakeLists.txt.
+20. **Plan and checklists:** For the future developers to take on your work, please always provide a plan document with clear todos and checklists. Before implementing anything, check out the document file. Whenever you finished something in the checklist, please update the document.
+21. **Proper cmake configuration:** Use CPM to mangage dependencies. After any update on cmake scripts, you should rerun configuration before rebuild.
