@@ -1,7 +1,7 @@
 # DEVELOPING GUIDELINES
 
 1. **NO template, NO lambda, No PCH, No macro define (Use constexpr if possible for type safety)**
-2. **Plain design**, no extra namespaces more than `hpcfem` (To seperate our own lib from the third-party ones).
+2. **Plain design**, no extra namespaces more than one that aims at seperating our own lib from the third-party ones.
 3. **Always check to avoid enum conflicts.**
 4. **No code nesting.** No struct/class/enum inside struct/class.
 5. **Naming uniqueness.** Everytime you introduce new class/enum/struct, document them in a centric file, and check to avoid duplication before adding new ones.
