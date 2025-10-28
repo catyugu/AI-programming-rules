@@ -4,7 +4,7 @@
 2. **Plain design**, no extra namespaces more than `hpcfem` (To seperate our own lib from the third-party ones).
 3. **Always check to avoid enum conflicts.**
 4. **No code nesting.** No struct/class/enum inside struct/class.
-5. **Naming uniqueness.** Everytime you introduce new class/enum/struct, document them in `docs/hpcfem-doc`, and check to avoid duplication before adding new ones.
+5. **Naming uniqueness.** Everytime you introduce new class/enum/struct, document them in a centric file, and check to avoid duplication before adding new ones.
 6. **Use Doxygen-style comments.**
 7. Guarantee that all the examples/tests/benchmarks can all compile and run smoothly before a `commit`
 8. If for anything you only made interface or simplified implementation, please EXPLICITLY mark it as `TODO` in comment. And you should clear up all the TODOs before a `merge`.
