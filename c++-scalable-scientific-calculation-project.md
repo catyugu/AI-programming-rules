@@ -27,3 +27,4 @@
 19. **Clean include path:** No use of relative path in include like `../`, instead, always configure the include path property in CMakeLists.txt.
 20. **Plan and checklists:** For the future developers to take on your work, please always provide a plan document with clear todos and checklists. Before implementing anything, check out the document file. Whenever you finished something in the checklist, please update the document.
 21. **Proper cmake configuration:** Use CPM to mangage dependencies. After any update on cmake scripts, you should rerun configuration before rebuild.
+22. **Consider MPI parallelism:** Your code should be able to run in parallel with MPI without breaking down. Everytime you add a new functionality, your test shall include both the serial and parallel cases.
